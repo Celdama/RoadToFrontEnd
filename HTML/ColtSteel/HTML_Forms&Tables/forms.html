@@ -29,7 +29,7 @@
       </p>
       <p>
         <label for="number">Enter a Number</label>
-        <input type="number" id="color" name="num" />
+        <input type="number" min="1" max="100" id="color" name="num" />
       </p>
       <p>
         <label for="reset">Reset</label>
@@ -64,6 +64,31 @@
           <option value="veg">Vegetarian</option>
           <option value="steak">Steak</option>
         </select>
+      </p>
+
+      <p>
+        <label for="cheese">Amount of Cheese:</label>
+        <input
+          type="range"
+          id="cheese"
+          min="1"
+          max="10"
+          step="2"
+          value="7"
+          name="cheese_level"
+        />
+      </p>
+
+      <p>
+        <label for="request">Any Request ?</label>
+        <br />
+        <textarea
+          name=""
+          id="request"
+          cols="20"
+          rows="4"
+          placeholder="type something here"
+        ></textarea>
       </p>
       <button>Submit</button>
     </form>
