@@ -91,6 +91,27 @@
         ></textarea>
       </p>
       <button>Submit</button>
+
+      <h2>Validation demo</h2>
+      <form action="/dummy">
+        <label for="first">Enter First Name</label>
+        <input type="text" name="first" id="first" required />
+        <label for="username">Username</label>
+        <input
+          type="text"
+          id="username"
+          id="username"
+          minlength="4"
+          maxlength="12"
+          required
+        />
+
+        <p>
+          <input type="email" required name="" id="" />
+          <input type="url" required name="" id="" />
+        </p>
+        <button type="submit">Submit</button>
+      </form>
     </form>
   </body>
 </html>
