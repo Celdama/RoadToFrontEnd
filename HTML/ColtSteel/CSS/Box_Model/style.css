@@ -1,3 +1,8 @@
+/* reset  */
+body {
+  margin: 0;
+}
+
 div {
   width: 200px;
   height: 200px;
@@ -9,6 +14,7 @@ h1 {
   width: 100px;
   padding-left: 100px;
   padding-top: 80px;
+  margin: 0;
 }
 
 #one {
@@ -17,6 +23,8 @@ h1 {
   border-color: black;
   border-style: solid;
   /* box-sizing: border-box; */
+  margin-left: 50px;
+  margin-bottom: 50px;
 }
 
 #two {
@@ -24,6 +32,7 @@ h1 {
   border: 3px dashed #ffcdb2;
   border-left-color: lightgreen;
   padding-right: 150px;
+  margin: 200px;
 }
 
 #three {
