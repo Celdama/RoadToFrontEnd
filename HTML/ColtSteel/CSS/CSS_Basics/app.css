@@ -8,6 +8,8 @@ h1 {
   text-decoration: salmon underline;
   letter-spacing: 10px;
   font-size: 51px;
+  font-family: fantasy, Arial, Futura,  Verdana, monospace;
+  ;
 }
 
 a {
