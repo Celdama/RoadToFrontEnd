@@ -1,3 +1,13 @@
 h3 {
   color: paleturquoise;
+  background-color: thistle;
+}
+
+button {
+  color: white;
+  background-color: paleturquoise;
+}
+
+p {
+  color: olive;
 }
