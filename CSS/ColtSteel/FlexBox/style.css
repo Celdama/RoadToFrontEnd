@@ -15,13 +15,19 @@ h1 {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  /* flex-wrap: wrap-reverse; */
-  /* align-items: baseline; */
-  align-items: flex-end;
-  flex-wrap: wrap-reverse;
+  align-content: flex-start;
+  /* flex-wrap: wrap; */
 }
 
 #container div {
   width: 50px;
   height: 50px;
+}
+
+div:nth-of-type(2) {
+  align-self: center;
+}
+
+div:nth-of-type(3){
+  align-self: flex-end;
 }
