@@ -10,10 +10,20 @@ h1 {
 
 nav {
   font-size: 1.5em;
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  flex: 1;
+  max-width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
 }
 
 ul, li {
-  display: inline;
+  /* display: inline; */
   margin: 0;
   padding: 0;
 }
@@ -23,7 +33,7 @@ ul, li {
     color: palegreen;
   }
 } */
-
+/* 
 @media (max-width: 1500px) {
   h1 {
     color: greenyellow;
@@ -39,5 +49,21 @@ ul, li {
 @media (max-width: 500px) {
   h1 {
     color: red;
+  }
+} */
+
+@media (max-width: 768px){
+  h1{
+    font-size: 4em;
+  }
+  nav, nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 3em;
   }
 }
