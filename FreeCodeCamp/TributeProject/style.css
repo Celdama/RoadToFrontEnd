@@ -1,23 +1,20 @@
+html {
+  font-size: 10px;
+}
+
 body {
   font-family: sans-serif;
-  font-size: 10px;
   margin: 0;
   padding: 4em;
 }
 
 main {
-  border: 2px solid green;
-  display: flex;
-  flex-direction: column;
   padding: 4em; 
 }
 
 main #main-section {
-  border: 1px solid blue;
   margin-bottom: 4em;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  text-align: center;
 }
 
 #main-section #title {
@@ -25,19 +22,14 @@ main #main-section {
 }
 
 #img-div {
-  margin: 0;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: black;
-  width: 75%;
-  height: auto;
+  max-width: 1200px;
+  padding: 10px;
 }
-
-/* #image {
-  width: 100%;
-  height: auto;
-} */
 
 #img-caption {
   font: italic 1rem sans-serif;
@@ -48,6 +40,7 @@ main #main-section {
 
 img {
   width: 100%;
+  display: block;
   height: auto;
   object-fit: cover;
 }
@@ -57,43 +50,44 @@ img {
 #content-section {
   border: 1px solid rosybrown;
   display: flex;
+  flex-direction: column;
 }
 
 #content-section > * {
-  margin: 5px;
-  padding: 5px;
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+#content-section ul {
+  border: 1px solid red;
+  margin: 0 auto 50px auto;
+  line-height: 3.5rem;
+  text-align: left;
+  max-width: 800px;
+}
+
+#content-section span {
+  font-weight: bold;
 }
 
 .content-section-left {
-  border: 1px solid rebeccapurple;
-  background-color: rebeccapurple;
-  width: 70%;
 }
 
 .content-section-right {
-  border: 1px solid rgb(215, 230, 11);
-  background-color: rgb(215, 230, 11);
-  width: 30%;
 }
 
 footer {
-  border: 2px solid sandybrown;
 }
 
 @media (max-width: 600px){
-  #content-section {
-    flex-direction: column;
-    align-items: center;
-  }
-  .content-section-right  {
-    width: 70%;
-  }
-
-  #img-div {
+  /* #img-div {
     width: 100%;
-  }
+  } */
   
   #img-caption {
     font: italic 0.8rem sans-serif;
   }
+}
+
+@media (max-width: 900px) {
 }
