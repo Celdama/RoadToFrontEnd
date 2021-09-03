@@ -1,24 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap');
+
 html {
   font-size: 10px;
+  font-family: 'PT Sans Narrow', sans-serif;
+  background-color: #f5f3f4;
 }
 
-body {
-  font-family: sans-serif;
-  margin: 0;
-  padding: 4em;
-}
-
-main {
-  padding: 4em; 
-}
-
-main #main-section {
-  margin-bottom: 4em;
+#main-section {
+  margin-bottom: 7em;
   text-align: center;
+
 }
 
-#main-section #title {
-  font-size: 1.9rem;
+#main-section h1 {
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+#main h3 {
+  font-size: 3rem;
+  margin: 0;
 }
 
 #img-div {
@@ -28,66 +29,67 @@ main #main-section {
   align-items: center;
   background-color: black;
   max-width: 1200px;
-  padding: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19),
+  0 6px 6px rgba(0, 0, 0, 0.23);
 }
 
-#img-caption {
-  font: italic 1rem sans-serif;
+#img-div img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+#img-div #img-caption {
+  font: italic 1.4rem sans-serif;
   background-color: black;
   color: white;
   text-align: center;
 }
 
-img {
-  width: 100%;
-  display: block;
-  height: auto;
-  object-fit: cover;
-}
-
-
-
-#content-section {
-  border: 1px solid rosybrown;
+#tribute-info {
   display: flex;
   flex-direction: column;
-}
-
-#content-section > * {
-  font-size: 1.6rem;
+  padding: 0em 3em;
+  font-size: 2rem;
   text-align: center;
 }
 
-#content-section ul {
-  border: 1px solid red;
+#tribute-info ul {
   margin: 0 auto 50px auto;
-  line-height: 3.5rem;
+  line-height: 1.7;
   text-align: left;
   max-width: 800px;
 }
 
-#content-section span {
+#tribute-info li {
+  margin: 1.6em 0;
+}
+
+#tribute-info span {
   font-weight: bold;
-}
-
-.content-section-left {
-}
-
-.content-section-right {
+  color: #e43c35;
 }
 
 footer {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+footer a {
+  color: #e43c35;
 }
 
 @media (max-width: 600px){
-  /* #img-div {
-    width: 100%;
-  } */
-  
-  #img-caption {
-    font: italic 0.8rem sans-serif;
+  h1 {
+    font-size: 3.2rem;
   }
-}
 
-@media (max-width: 900px) {
+  #tribute-info {
+    font-size: 1.8rem;
+  }
+
+  #img-caption {
+    font: italic 1.4rem sans-serif;
+  }
 }
