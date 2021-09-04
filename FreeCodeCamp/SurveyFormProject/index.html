@@ -7,5 +7,147 @@
     <title>Survey Form</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body></body>
+  <body>
+    <main id="main">
+      <header class="text-center">
+        <h1 id="title">Celdama Survey Form</h1>
+        <p id="description">
+          Thank you for taking the time to help me improve my site
+        </p>
+      </header>
+      <form id="survey-form" class="form" action="#">
+        <div class="form-content">
+          <div class="form-group">
+            <label id="name-label" for="name">Name</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Enter your name"
+              class="form-control"
+              required
+            />
+          </div>
+          <br />
+          <div class="form-group">
+            <label id="email-label" for="email">Email</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Enter your email"
+              class="form-control"
+              required
+            />
+          </div>
+          <br />
+          <div class="form-group">
+            <label id="number-label" for="age">Age</label>
+            <input
+              type="number"
+              name="age"
+              id="age"
+              placeholder="Enter your age"
+              min="10"
+              max="110"
+              class="form-control"
+              required
+            />
+          </div>
+          <br />
+          <div class="form-group">
+            <label for="gender">Gender</label>
+            <select
+              id="dropdown"
+              class="form-control"
+              name="gender"
+              id="gender"
+              required
+            >
+              <option value="" selected disabled>Select an option</option>
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          <br />
+          <div class="form-group">
+            <p>How did you hear about me ?</p>
+            <div>
+              <label for="social">
+                <input
+                  type="checkbox"
+                  name="know-me"
+                  id="social"
+                  value="social"
+                  class="input-checkbox"
+                />Social</label
+              >
+              <label for="advertising">
+                <input
+                  type="checkbox"
+                  name="know-me"
+                  id="advertising"
+                  value="advertising"
+                  class="input-checkbox"
+                />Advertising</label
+              >
+              <label for="search-engine">
+                <input
+                  type="checkbox"
+                  name="know-me"
+                  id="search-engine"
+                  value="search-engine"
+                  class="input-checkbox"
+                />Search Engine</label
+              >
+            </div>
+          </div>
+          <br />
+          <div class="form-group">
+            <p>How likely are you to recommend me to a friend?</p>
+            <label for="definitely">
+              <input
+                type="radio"
+                name="user-recomended"
+                id="definitely"
+                value="definitely"
+                class="input-radio"
+              />Definitely
+            </label>
+            <label for="maybe">
+              <input
+                type="radio"
+                name="user-recomended"
+                id="maybe"
+                value="maybe"
+                class="input-radio"
+              />Maybe
+            </label>
+            <label for="never">
+              <input
+                type="radio"
+                class="input-radio"
+                name="user-recomended"
+                id="never"
+                value="never"
+              />Never
+            </label>
+          </div>
+          <br />
+          <div class="form-group">
+            <label for="request">Any comments or suggestions?</label>
+            <textarea
+              name="request"
+              id="request"
+              placeholder="Enter Your Comment Here..."
+              class="input-area"
+            ></textarea>
+          </div>
+          <button id="submit">Submit</button>
+          <!-- <input type="reset" value="Reset" /> -->
+        </div>
+      </form>
+    </main>
+  </body>
 </html>
