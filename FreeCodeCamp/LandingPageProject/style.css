@@ -1,3 +1,59 @@
 .navbar-custom {
   background-color: red;
 }
+
+main {
+  border: 1px solid red;
+  height: 60vh;
+  overflow: hidden;
+}
+
+.main-content{
+  border: 1px solid blue;
+}
+
+.main-img {
+  position: relative;
+  /* background-color: rosybrown; */
+  height: 550px;
+  margin-top: 92px;
+  align-items: center;
+}
+
+/* .main-img::before {
+  content: "";
+  position: absolute;
+} */
+
+.btn-custom {
+  background-color: #0f3122;
+}
+
+.box {
+  position: relative;
+  width: 400px;
+  height: 450px;
+  margin: 20px 40px;
+}
+
+.box .circle {
+  position: absolute;
+  bottom: -20px;
+  /* top: 5px; */
+  
+  background-color: #0f3122;
+  left: -40px;
+  width: 595px;
+  height: 595px;
+  border-radius: 50%;
+
+}
+.main-img .circle img {
+  position: absolute;
+  /* top: 0px; */
+  /* bottom: à0px; */
+  top: -5%;
+  left: 50%;
+  height: 900px;
+  transform: translateX(-48%);
+}
