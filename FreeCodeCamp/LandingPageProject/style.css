@@ -1,15 +1,16 @@
 .navbar-custom {
-  background-color: red;
+  /* background-color: red; */
 }
 
 main {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   height: 60vh;
   overflow: hidden;
+  background-color: silver;
 }
 
 .main-content{
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
 }
 
 .main-img {
