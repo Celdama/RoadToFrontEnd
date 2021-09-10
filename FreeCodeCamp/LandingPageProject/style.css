@@ -5,7 +5,7 @@
 }
 
 main {
-  height: 60vh;
+  height: 66vh;
   overflow: hidden;
   background-color: #F1F3F2;
 }
@@ -30,11 +30,11 @@ main {
 
 .box .circle {
   position: absolute;
-  top: -60px;
+  top: -56px;
   background-color: #0f3122;
   left: -40px;
   width: 520px;
-  height: 625px;
+  height: 630px;
   border-top-left-radius: 50%;
   border-top-right-radius: 50%;
 }
@@ -44,4 +44,28 @@ main {
   left: 50%;
   height: 840px;
   transform: translateX(-48%);
+}
+
+#collection-section > div {
+  /* border: 1px solid red; */
+  padding: 4em 0;
+}
+
+#collection-section h2 {
+  margin-bottom: 0.9em;
+}
+
+.collection-card img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+
+article {
+  /* border: 1px solid red; */
+  height: 480px;
+  width: 340px;
+  display: inline-block;
+  margin: 0.6em
 }
