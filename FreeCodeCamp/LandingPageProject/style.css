@@ -1,30 +1,21 @@
-.navbar-custom {
-  /* background-color: red; */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 main {
-  /* border: 1px solid red; */
   height: 60vh;
   overflow: hidden;
-  background-color: silver;
-}
-
-.main-content{
-  /* border: 1px solid blue; */
+  background-color: #F1F3F2;
 }
 
 .main-img {
   position: relative;
-  /* background-color: rosybrown; */
   height: 550px;
   margin-top: 92px;
   align-items: center;
 }
-
-/* .main-img::before {
-  content: "";
-  position: absolute;
-} */
 
 .btn-custom {
   background-color: #0f3122;
@@ -39,22 +30,18 @@ main {
 
 .box .circle {
   position: absolute;
-  bottom: -20px;
-  /* top: 5px; */
-  
+  top: -60px;
   background-color: #0f3122;
   left: -40px;
-  width: 595px;
-  height: 595px;
-  border-radius: 50%;
-
+  width: 520px;
+  height: 625px;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
 }
 .main-img .circle img {
   position: absolute;
-  /* top: 0px; */
-  /* bottom: à0px; */
-  top: -5%;
+  top: -10%;
   left: 50%;
-  height: 900px;
+  height: 840px;
   transform: translateX(-48%);
 }
