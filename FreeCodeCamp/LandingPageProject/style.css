@@ -1,3 +1,5 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -7,7 +9,7 @@
 main {
   height: 66vh;
   overflow: hidden;
-  background-color: #F1F3F2;
+  background-color: rgb(240, 243, 242);
 }
 
 .main-img {
@@ -18,7 +20,7 @@ main {
 }
 
 .btn-custom {
-  background-color: #0f3122;
+  background-color: #0c3122;
 }
 
 .box {
@@ -31,7 +33,7 @@ main {
 .box .circle {
   position: absolute;
   top: -56px;
-  background-color: #0f3122;
+  background-color: #0c3122;
   left: -40px;
   width: 520px;
   height: 630px;
@@ -55,17 +57,92 @@ main {
   margin-bottom: 0.9em;
 }
 
+.collection-card {
+  /* border: 1px solid red; */
+  height: 480px;
+  width: 340px;
+  display: inline-block;
+  margin: 0.6em
+}
+
 .collection-card img {
   height: 100%;
   width: 100%;
   object-fit: cover;
 }
 
+#choice-section {
+  background-color: rgb(240, 243, 242);
+  padding: 50px;
+}
 
-article {
+#choice-section article {
   /* border: 1px solid red; */
-  height: 480px;
-  width: 340px;
-  display: inline-block;
-  margin: 0.6em
+  height: 240px;
+  width: 300px;
+  padding: 2em 4em 2em 1em;
+  margin: 0.6em;
+  background-color: #fff;
+}
+
+#choice-section h2 {
+  margin-bottom: 0.9em;
+}
+
+#choice-section i {
+  /* border: 1px solid red; */
+  background-color: #0c3122;
+  font-weight: lighter;
+  border-radius: 50%;
+  color: white;
+  padding: 10px;
+  font-size: 1.2rem;
+}
+
+#choice-section .card-green {
+  background-color: #0c3122;
+  color: #fff;
+}
+
+#choice-section .icon-white {
+  background-color: white;
+  color: #0c3122;
+}
+
+
+#testimonial-section {
+  /* height: 120px; */
+}
+
+#testimonial-section .container {
+  position: relative;
+  /* border: 1px solid red; */
+  padding: 40px;
+  height: 680px;
+}
+
+#testimonial-section img {
+  position: absolute;
+  /* height: auto;
+  width: 90%; */
+  /* top: -30px; */
+  /* right: 5%; */
+  left: 65%;
+  bottom: 8%;
+}
+
+.testimonial-text {
+  background-color: #0c3122;
+  color: #fff;
+  width: 100%;
+  height: 320px;
+  padding: 40px;
+  border-bottom-right-radius: 80px;
+  border-bottom-left-radius: 80px;
+  padding-left: 4em;
+
+}
+
+.testimonial-text p {
+  width: 60%;
 }
