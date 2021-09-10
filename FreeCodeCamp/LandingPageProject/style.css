@@ -123,10 +123,6 @@ main {
 
 #testimonial-section img {
   position: absolute;
-  /* height: auto;
-  width: 90%; */
-  /* top: -30px; */
-  /* right: 5%; */
   left: 65%;
   bottom: 8%;
 }
@@ -145,4 +141,20 @@ main {
 
 .testimonial-text p {
   width: 60%;
+}
+
+#step-section article {
+  position: relative;
+  height: 210px;
+  /* border: 1px solid red; */
+  background-color: #F0F3F2;
+  width: 300px;
+  margin: 2em;
+  padding: 1.6em;
+}
+
+#step-section span {
+  position: absolute;
+  font-size: 7rem;
+  bottom: 64%;
 }
