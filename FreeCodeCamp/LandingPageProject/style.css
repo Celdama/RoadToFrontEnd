@@ -133,6 +133,14 @@ p {
   color: var(--white-color);
 }
 
+#choice-section .card-white {
+  background-color: white;
+}
+
+#choice-section .card-green h3 {
+  color: var(--white-color);
+}
+
 #choice-section .icon-white {
   background-color: white;
   color: var(--green-color);
